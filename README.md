@@ -1,37 +1,55 @@
-# Task 4 - Git Version Control Workflow
+# 🚀 DevOps CI/CD Project
 
-## Objective
+## Overview
 
-Manage a DevOps project using Git best practices.
+This project demonstrates the implementation of a complete CI/CD pipeline using GitHub Actions, Docker, Docker Hub, and AWS EC2.
 
-## Tools Used
+The application is containerized using Docker and automatically deployed to an AWS EC2 instance whenever changes are pushed to the main branch.
 
-* Git
-* GitHub
+## Technologies Used
 
-## Workflow Followed
+* React + TypeScript + Vite
+* Docker
+* Docker Hub
+* GitHub Actions
+* AWS EC2
+* Nginx
+* Git & GitHub
 
-1. Initialized Git repository.
-2. Created main branch.
-3. Created dev branch.
-4. Created feature/about-section branch.
-5. Made changes and committed them.
-6. Created Pull Request from feature branch to dev branch.
-7. Merged dev branch into main branch.
-8. Added Git tag v1.0.
-9. Used .gitignore to exclude unnecessary files.
+## CI/CD Workflow
 
-## Git Commands Used
+```text
+Code Push
+   ↓
+GitHub Actions
+   ↓
+Docker Image Build
+   ↓
+Docker Hub Push
+   ↓
+AWS EC2 Deployment
+   ↓
+Application Updated
+```
 
-* git init
-* git add .
-* git commit
-* git branch
-* git checkout
-* git push
-* git tag
+## Features
 
-## Outcome
+* Dockerized application
+* Automated image build
+* Automated image push to Docker Hub
+* Automated deployment to AWS EC2
+* Zero manual deployment steps
+* Continuous Integration & Continuous Deployment
 
-Successfully implemented a Git workflow using feature, development, and main branches with proper version control practices.
+## Learning Outcomes
+
+* Docker Containerization
+* GitHub Actions Workflows
+* AWS EC2 Deployment
+* CI/CD Pipeline Implementation
+* Linux Server Management
+
+## Author
+
+**Saad Mujawar**
 
