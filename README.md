@@ -52,4 +52,6 @@ Application Updated
 ## Author
 
 **Saad Mujawar**
+<img src="https://github.com/mujawarsaad/elevate-labs-project/blob/main/img1.png">
 
+<img src="https://github.com/mujawarsaad/elevate-labs-project/blob/main/img2.png">
